@@ -1,6 +1,8 @@
 # project_writ by HABAJA S.A
 It´s a school project...
 
+Se rehizo el repositorio para actualizar y rediseñar los archivos...
+
 Instrucciones para importarlo en XAMPP.
 
 1.- Crear una carpeta en htdocs llamada: "project".
