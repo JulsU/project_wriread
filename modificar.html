@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/project/css/master.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Wriread It</title>
+  </head>
+  <body>
+    <header id="main-header-footer">
+      <div class="row">
+        <div class="col-3">
+          <div class="row">
+            <div id="div-logo" class="col-4">
+              <img id="logo-img"src="/project/images/Logo.png" alt="">
+            </div>
+            <div class="col">
+              <a id="logo-header" href="#">
+                <div>
+                  <span class="site-name">Wriread It!</span>
+                  <span class="site-desc">The best site for read books</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 nav-center">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">LIBRERIA</a></li>
+            <li><a href="#">ACERCA</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+            <div id="header-button">
+              <ul>
+                <li><a href="#">Inicia Sesión</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </header>
+    <div id="content">
+    	<form>
+    	  <br>
+      	<center><h1>Modificar información de Usuario:</h1><br>
+      	<center>Nombre de Usuario:<br>
+      	<input type="text" name="NombreUsuario" placeholder="Nombre de Usuario" required><br>
+      	<center>Nombre:<br>
+      	<input type="text" name="Nombre" placeholder="Nombre" required>
+      	<input type="text" name="Apellido" placeholder="Apellido" required><br>
+      	<center>Email:<br>
+      	<input type="email" name="Correo" placeholder="Email" required><br>
+      	<center>Contraseña:<br>
+      	<input type="password" name="Contraseña" placeholder="Password" required><br>
+      	<center>Email de Paypal:<br>
+      	<input type="email" name="Paypal" placeholder="Paypal" required><br>
+      	<center>Cumpleaños:<br>
+      	<input type="number" name="Día" min="1" max="31" placeholder="Día">
+      	<input type="number" name="Mes" min="1" max="12" placeholder="Mes">
+      	<input type="number" name="Año" min="1950" max="2018" placeholder="Año">
+      	<center>Sexo:<br>
+      	<select name="genero">
+      	<option selected disabled hidden>Soy...</option>
+          <option value="Masculino">Hombre</option>
+          <option value="Femenino">Mujer</option>
+      	</select>
+      	<center>Descripción:<br>
+      	<textarea name="Descripción" rows="5" cols="30">Había una vez...</textarea>
+      	<br>
+      	<input type="submit" value="Guardar">
+      	<input type="submit" value="Regresar">
+      	<br>
+    	</form>
+    </div>
+    <footer id="main-header-footer">
+      HABAJA S.A.
+    </footer>
+  </body>
+</html>

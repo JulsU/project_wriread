@@ -1,0 +1,193 @@
+/*Etiquetas para el Contenido.*/
+  #content{
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+  }
+  #terms a{
+    color: white;
+  }
+  #img-div-parent{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #img-div-child{
+    margin: auto;
+    width: 100%;
+  }
+  #img{
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+  }
+  #div-logo{
+    margin-left: 15px
+  }
+  .parent{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .parent-contact{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 10%;
+    width: 83%;
+  }
+  .parent-center{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+  }
+  .contact{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 25%;
+  }
+  .map{
+    text-align: center;
+    margin-top:2px;
+  }
+  #title{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-style: bold;
+    font-size: 22px;
+    text-align: center;
+  }
+  .div-text{
+    border: 2px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  .div-center{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .div-middle{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .div-final{
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .child-center{
+    margin:auto;
+    width: 50%;
+  }
+  .nav-center{
+    text-align: center;
+    margin: auto;
+  }
+  /*Etiquetas para el Encabezado.*/
+
+  #logo-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  #main-header-footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    top: 0;
+  }
+    #main-header-footer a {
+      color: white;
+    }
+  #logo-header {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+    #logo-header:hover {
+      color: blue;
+    }
+    #logo-header .site-name {
+      display: block;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    #logo-header .site-desc {
+      display: block;
+      font-weight: 300;
+      font-size: 14px;
+      color: rgba(255,255,255,0.8);
+    }
+    #nav-header{
+      float: left;
+      padding-top: 20px;
+    }
+    #header-button{
+      float: right;
+      padding-right: 10px;
+      padding-top: 10px;
+      text-decoration: none;
+      text-align: right;
+      color: white;
+    }
+    /*Etiquetas para el Pie de Pagina.*/
+
+    footer{
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      height: 80px;
+      left: 0;
+    }
+    #text-footer{
+      color: white;
+      text-decoration: none;
+      margin-left: 10%;
+      width: 80%;
+    }
+      #text-footer hr {
+        background-color: white;
+      }
+    /*Etiquetas para la Barra de Navegacion.*/
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+      ul li {
+        margin: 10px;
+        margin-top: 20px;
+        display: inline-block;
+        line-height: 35px;
+        border-radius: 40px;
+        background: rgba(50,120,150,1);
+        height: 35px;
+      }
+        ul li a {
+          display: block;
+          padding: 0 10px;
+          text-decoration: none;
+        }
+          ul li a:hover {
+            background: rgba(60, 140, 200, 0.5);
+            border-radius: 40px;
+            line-height: 35px;
+            text-decoration: none;
+          }
