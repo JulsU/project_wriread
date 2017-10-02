@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/project/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <script src="/project/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+          } else {
+            $('.scrollup').fadeOut();
+          }
+        });
+      $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+          return false;
+        });
+      });
+    </script>
+    <title>Wriread It</title>
+  </head>
+  <body>
+    <header id="main-header-footer">
+     <div class="row">
+       <div class="col-3">
+         <div class="row">
+           <div class="col-4">
+             <img id="logo-img"src="/project/images/Logo.png" alt="">
+           </div>
+           <div class="col">
+             <a id="logo-header" href="#">
+               <div>
+                 <span class="site-name">Wriread It!</span>
+                 <span class="site-desc">The best site for read books</span>
+               </div>
+             </a>
+           </div>
+         </div>
+       </div>
+       <div class="col-5 nav-center">
+         <ul>
+           <li><a href="#">HOME</a></li>
+           <li><a href="#">LIBRERIA</a></li>
+           <li><a href="#">ACERCA</a></li>
+           <li><a href="#">CONTACTO</a></li>
+         </ul>
+       </div>
+       <div class="col-3">
+           <div id="header-button">
+             <ul>
+               <li><a href="#">Inicia Sesión</a></li>
+             </ul>
+           </div>
+       </div>
+     </div>
+   </header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <center><b>Te damos la bienvenida a nuestras politicas y condiciones de uso de WRIREAD IT!</b></center>
+          <hr>
+          <div style="float: left; width: 25%">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Aceptación de los terminos</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Sitio web</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Cuentas</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Uso general del sitio web</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Uso del contenido del sitio web</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Presentaciones y conductas del usuario</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Politica de cierre de cuenta</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-8">Politica de copyright</a>
+          </div>
+        </div>
+        <div style="float: right; width: 70%">
+          <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <h7 id="list-item-1">
+              <p align="justify"><b><br>Aceptación de los términos</br></b><b>A.</b> Al visitar nuestra página Web “Wrireadit.com” y acceder a todo su contenido disponible, estarás aceptando nuestros términos y condiciones que podrás consultar en “Wrireadit.com/privacidad, (esto aplica a cualquier país).
+                Si tienes algún inconveniente o simplemente no estás de acuerdo con los términos y condiciones, favor de no reclamar y evitar ingresar a nuestro sitio web.
+                <b><br>B.</br></b> Nosotros le informaremos sobre todas las actualizaciones que se lleguen a dar en nuestro sitio web, incluyendo modificaciones a nuestros términos de servicio y políticas, ya que discretamente modificaremos estas en cualquier momento, pero usted podrá consultarlas inmediatamente, y usted estará aceptando estas  modificaciones al seguir visitando nuestro sitio web y consultando su contenido.</p>
+              </h7>
+              <h7 id="list-item-2"><b><br>Sitio web</br></b><b>A.</b><p align="justify">Estos términos se aplican a todo usuario que ingrese a nuestro sitio web, sin importar que sean usuarios que aporten contenido de texto o usuarios de lectura, o cualquier tipo de servicio.
+                <br><b>B.</b></br> Nuestro sitio web cuenta con enlaces a sitios web de terceros que no son de nuestra propiedad ni tenemos derechos de controlarlos o modificarlos, además no asumimos ninguna responsabilidad que alguno de nuestros usuarios ingrese a dichos enlaces.
+              </p></h7>
+              <h7 id="list-item-3"><p align ="justify"><b>Cuentas</b><br><b>A.</br></b>Para acceder al contenido de nuestro sitio web deberá contar con una cuenta de “Wrireadit.com”, podrá acceder con la cuenta de otro usuario siempre y cuando dicho usuario le otorgue su cuenta, “Wrireadit.com” no se hace responsable de lo que pueda ocurrir con su cuenta, para evitar problemas mantenga su cuenta segura, evite dar su contraseña a desconocidos, en dado caso que de su cuenta que sea alguien de confianza.
+                Si su cuenta ha sido robada, cree que alguien la usa sin su autorización o se presenta algún incumplimiento de seguridad, favor de notificar a “Wrireadit.com” para ponernos en contacto con usted y arreglar el problema.
+                <b><br>B.</br></b> Las personas menores de 12 años no podrán crear una cuenta en nuestro sitio.
+                <b><br>C.</br></b> No es recomendable la creación de más de una cuenta, si estas llegan a usarse para fines maliciosos, se dará cierre permanente a estas cuentas sin aviso previo, así como a cualquier otra cuenta en la cual se detecte alguna actividad maliciosa.
+              </p>
+            </h7>
+            <h7 id="list-item-4"><b><br>Uso general del sitio web</b></br></h7>
+            <p align ="justify">Wrireadit.com le otorga el permiso para acceder de manera gratuita al sitio web y consultar toda la información según lo establecido en los términos, siempre que:
+              <br><b>a.</br></b> Usted acepta no hacer modificaciones al sitio web sin autorización.
+              <br><b>b.</br></b> Usted acepta no acceder al contenido del sitio web a través de otra tecnología o medio que no sea el enlace “Wrireadit.com”
+              <br><b>c.</br></b> Usted se compromete a no utilizar el sitio web para cualquier uso comercial sin autorización previa de Wrireadit.com, así como comercializar su cuenta o cualquier otro método que le generen ingresos propios no autorizados.
+              <br><b>d.</br></b> Usted se compromete a no usar ningún método que genere más vistas o cree cuentas falsas por medio de algún bot informático.
+              <br><b>e.</br></b>Mientras siga haciendo uso de nuestro sitio web deberá seguir cumpliendo con los términos y condiciones de estos términos de servicio, así como respetando el reglamento, a la comunidad y las políticas de “Wrireadit.com”.
+            </p>
+          </div>
+          <h7 id="list-item-5"> <b><br>Uso del contenido del sitio web</b></br></h7>
+          <p align="justify"> <br>Las siguientes restricciones son enfocadas a nuestro sitio web Wrireadit.com</br>
+            <br><b>a.</br></b> Todo aquel contenido dentro de nuestro sitio web, (excepto todo el contenido que los usuarios añadan a nuestro sitio como sus literaturas, imágenes, entre otras) es propiedad o está bajo licencia de Wrireadit.com, por ejemplo nuestros logotipos (marca).
+            <br><b>b.</br></b> El contenido de “Wrireadit.com” es solo para lectura y compartir con los mismos usuarios de nuestra comunidad, está prohibido ser descargado, copiado, modificado, producido, reproducido, distribuido, transmitido, transmitido, exhibido, vendido, licenciado, traducido, publicado, realizado o de otra manera explotados para cualquier otro fin sin el previo consentimiento del legítimo propietario o escritor.
+            <br><b>c.</br></b> Usted puede acceder a los envíos de usuario únicamente para su información y uso personal.
+            <br><b>d.</br></b> Usted acepta no participar en el uso, copia o distribución de cualquier contenido que no sea expresamente permitido en este documento, incluyendo cualquier uso, copia o distribución de envíos de usuario de terceros obtenidos a través del sitio Web para cualquier propósito comercial.
+          </p>
+          <h7 id="list-item-6"></h7> <b><br>Presentaciones y conductas del usuario</b></br></h7>
+          <p align ="justify">
+            <ol>
+              <li align ="justify">Los miembros de WRIREAD IT!  Ofrecen su talento por la lectura y escritura al publicar sus historias a través de una plataforma de comentarios, chat o discusiones.
+                Nosotros tratamos a la comunidad que hemos construido para todos. El código de conducta está diseñado para asegurarnos de que todos entiendan de qué trata la comunidad WRIREAD IT! y de nuestros valores.
+              </li>
+              <li align ="justify">
+                Nuestro objetivo se trata de hacer un grupo para quienes son apasionados por la lectura. Respetando al escritor en sus historias redactadas, comentarios positivos para que se motive en seguir escribiendo historias. De tal forma como lector ser paciente en las publicaciones de los capítulos de avance. De igual manera si no estás interesado en leer una lectura que no es de tu agrado o categoría que a ti en lo personal no te gusta encuentra una de tu agrado preferido sin dejar comentarios negativos y groseros para el sitio web como para el escritor ya que serán eliminados sin previo aviso para respetar al grupo de comunidad de WRIREAD IT! es un grupo diverso de opiniones y puntos de vista de todas las personas. Todos deben de ser tolerantes y respetados ante los comentarios de opinión de las demás personas. Si esas opiniones son inapropiadas o abusivas podrás reportar este comentario haciendo click en el botón de Reportar, donde se enviará a soporte.
+              </li>
+              <li align ="justify">
+                Respeta la privacidad y seguridad de los demás Revelar información personal sobre otras personas, como sus nombres, direcciones, correos electrónicos o números de teléfono, está estrictamente prohibido. El comportamiento en la seguridad e integridad de la comunidad WRIREAD IT! será bloqueada permanente.
+                Clasifica y categoriza tus historias en forma apropiada, las historias que describen violencia y sexualidad en su contenido puede que no sea  apropiados para ciertos lectores. Si las historias están clasificadas y categorizadas de forma apropiada ayudará a los lectores a encontrar más fácil sus tipos de agrado.
+              </li>
+              <li align ="justify">
+                WRIREAD IT! ayuda al escritor a darse a conocer por nuestro sitio web.
+              </li>
+              <li align ="justify">NO compartas historias que no son tuyas Solo puedes compartir las historias que has escrito tú.
+              </li>
+              <li align ="justify">No hagas spam, hay una fina línea entre promocionar tus historias y hacer spam. Cuanto más relevante y personalizado sea tu mensaje, menores serán las posibilidades de que sea reportado por spam. Si quieres recomendar tu historia, no lo hagas en las obras de otros autores. No dejes links de negocios online o sitios similares, ni dejes comentarios que promuevan otros productos o servicios; lo consideramos spam.
+              </li>
+              <li align ="justify">No intercambies vistos ni gana vistos trabaja mucho y mejorando tu escritura lograras conseguirlos sin hacer trampa. El intercambio de vistos es injusto para aquellos que no son participan en dicha actividad. NO finjas ser alguien más, no provoques bloquear aquellas personas que se hacen pasar por otra ya que arriesgas las cuentas de las otras personas. Si Reporta cualquier contenido inapropiado que veas. Dicho contenido será eliminado junto con sus respuestas. Los infractores que vuelvan a cometer alguna ofensa, verán sus cuentas eliminadas.
+              </li>
+              <li align ="justify">En la mayoría de los casos, enviaremos una advertencia antes de tomar otras medidas. Recuerda: WRIREAD IT! es una comunidad segura y divertida donde todos deben sentirse cómodos y respetados. Es un trabajo de todos donde podemos tener un sitio web respetuoso para todos. Pensamos que esto es justo, pero si no estás de acuerdo, quizás WRIREAD IT!  no sea el sitio para ti.
+              </li>
+            </ol>
+          </p>
+          <h7 id="list-item-7"></h7> <b><br>Politica de cierre de cuenta</b></br></h7>
+          <p align ="justify">
+            Wrireadit.com dara suspencion de cuentas sin previo aviso aquellos usuarios que publiquen contenido inapropiado, comentarios ofensivos, entre otras, durante una semana, cuando el usuario llegue a las tres suspensiones se le cerrara está permanentemente.
+            A su vez daremos cierres permanentes de cuentas a los usuarios que hagan plagio de otras literaturas ajenas del mismo sitio, tener múltiples cuentas para fines maliciosos, robo de cuentas, entre otras acciones que infrinjan los términos de nuestro sitio web.
+          </p>
+          <h7 id="list-item-8"></h7> <b><br>Politica de cierre de cuenta</b></br></h7>
+          <p align ="justify">
+            Los escritores de Wrireadit.com podran tener derechos sobre sus literaturas, están en proceso de creación o ya estén terminadas, plagiar sus obras en el mismo sitio o tratar de comercializarlas será penalizado con cierre permanente de la cuenta. Pero si deseas usarlas para uso personal o simple lectura sin fines de lucro, se podrá tomar dicha literatura. A su vez podrá compartirse en otros sitios web o hacer pública dicha obra siempre y cuando el escritor o propietario lo acepte previamente.
+            En caso de detectar algún caso de plagio de literaturas o infracción, hacer el favor de notificarnos a nuestro correo “wrireadit@gmail.com” junto con algunas pruebas reales que sean justificables para demostrar el plagio.
+          </p>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <a href="#list-item-1" class="scrollup">Regresar</a>
+  <footer id="main-header-footer">
+    HABAJA S.A.
+  </footer>
+  </body>
+</html>
